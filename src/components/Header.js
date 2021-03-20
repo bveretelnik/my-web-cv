@@ -43,7 +43,11 @@ function Header() {
       <br />
       <Typography className={classes.subtitle} variant="h5">
         <Typed
-          strings={["Web Desing", "React js Developer", "JS Developer"]}
+          strings={[
+            " Junior Front End Developer",
+            "Junior React js Developer",
+            "Junior JS Developer",
+          ]}
           typeSpeed={40}
           backSpeed={60}
           loop

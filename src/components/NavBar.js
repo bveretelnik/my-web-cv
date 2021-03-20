@@ -23,6 +23,7 @@ import {
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import React from "react";
 import avatar from "../images/avatar.png";
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
@@ -45,10 +46,12 @@ const menuItems = [
   {
     listIcon: <Home />,
     listText: "Home",
+    listPath: "/",
   },
   {
     listIcon: <AssignmentInd />,
     listText: "Resume",
+    listPath: "/resume",
   },
   {
     listIcon: <Apps />,
@@ -79,7 +82,7 @@ function NavBar() {
       <Divider />
       <List>
         {menuItems.map((lsItem, key) => (
-          <ListItem button key={key}>
+          <ListItem button key={key} component={Link} to={lsItem.listPath}>
             <ListItemIcon className={classes.listItem}>
               {lsItem.listIcon}
             </ListItemIcon>
