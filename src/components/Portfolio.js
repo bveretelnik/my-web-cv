@@ -55,14 +55,17 @@ function Portfolio() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eligendi non quis exercitationem culpa nesciunt nihil aut
-                    nostrum explicabo reprehenderit.
+                    Full-stack chat application from front to back with React,
+                    Redux, Firebase 5, and Semantic UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  href="https://github.com/bveretelnik/react-slack-clone"
+                >
                   Share
                 </Button>
                 <Button size="small" color="primary">
