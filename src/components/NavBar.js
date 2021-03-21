@@ -13,13 +13,8 @@ import {
   Toolbar,
   Typography,
 } from "@material-ui/core";
-import {
-  Apps,
-  ArrowBack,
-  AssignmentInd,
-  ContactMail,
-  Home,
-} from "@material-ui/icons";
+import { Apps, AssignmentInd, ContactMail, Home } from "@material-ui/icons";
+import MenuOpenIcon from "@material-ui/icons/MenuOpen";
 import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import React from "react";
 import avatar from "../images/avatar.png";
@@ -104,7 +99,7 @@ function NavBar() {
         <AppBar position="static" style={{ background: "#222" }}>
           <Toolbar>
             <IconButton onClick={toggleSlider("right", true)}>
-              <ArrowBack style={{ color: "tomato" }} />
+              <MenuOpenIcon style={{ color: "tomato" }} />
             </IconButton>
             <Typography variant="h5" style={{ color: "tan" }}>
               Portfolio

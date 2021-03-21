@@ -23,8 +23,8 @@ const useStyle = makeStyles({
     height: "100%",
   },
   cardContainer: {
-    maxWidth: 345,
-    margin: "5rem auto",
+    maxWidth: 435,
+    margin: "2rem auto",
   },
 });
 
@@ -34,7 +34,7 @@ function Portfolio() {
     <>
       <Box component="div" className={classes.mainContainer}>
         <NavBar />
-        <Grid container justify="center">
+        <Grid container justify="center" item xs={12} spacing={3}>
           {/* Project 1 */}
           <Grid item xs={12} sm={8} md={6}>
             <Card className={classes.cardContainer}>
@@ -89,9 +89,8 @@ function Portfolio() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eligendi non quis exercitationem culpa nesciunt nihil aut
-                    nostrum explicabo reprehenderit.
+                    Full-stack chat application from front to back with React,
+                    Redux, Firebase 5, and Semantic UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -121,9 +120,8 @@ function Portfolio() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eligendi non quis exercitationem culpa nesciunt nihil aut
-                    nostrum explicabo reprehenderit.
+                    Full-stack chat application from front to back with React,
+                    Redux, Firebase 5, and Semantic UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -153,9 +151,8 @@ function Portfolio() {
                     color="textSecondary"
                     component="p"
                   >
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eligendi non quis exercitationem culpa nesciunt nihil aut
-                    nostrum explicabo reprehenderit.
+                    Full-stack chat application from front to back with React,
+                    Redux, Firebase 5, and Semantic UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
