@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route exact path="/" component={Home} />
       <Route path="/resume" component={Resume} />
       <Route path="/portfolio" component={Portfolio} />
+      <Route path="/contact" component={Contact} />
     </>
   );
 }

@@ -24,6 +24,7 @@ import MobilRightMenuSlider from "@material-ui/core/Drawer";
 import React from "react";
 import avatar from "../images/avatar.png";
 import { Link } from "react-router-dom";
+import Footer from "./Footer";
 
 const useStyles = makeStyles((theme) => ({
   menuSliderContainer: {
@@ -61,7 +62,7 @@ const menuItems = [
   {
     listIcon: <ContactMail />,
     listText: "Contact",
-    listPath: "/contacts",
+    listPath: "/contact",
   },
 ];
 
@@ -114,6 +115,7 @@ function NavBar() {
               onClose={toggleSlider("right", false)}
             >
               {sideList("right")}
+              <Footer />
             </MobilRightMenuSlider>
           </Toolbar>
         </AppBar>
