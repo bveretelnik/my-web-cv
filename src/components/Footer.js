@@ -31,16 +31,19 @@ function Footer() {
         className={classes.root}
         style={{ padding: 0 }}
         icon={<LinkedInIcon />}
+        href="https://www.linkedin.com/in/bohdan-veretelnik-15a834147/"
       />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<GitHubIcon />}
+        href="https://github.com/bveretelnik"
       />
       <BottomNavigationAction
         className={classes.root}
         style={{ padding: 0 }}
         icon={<FacebookIcon />}
+        href="https://www.facebook.com/bogdan.veretelnik"
       />
     </BottomNavigation>
   );

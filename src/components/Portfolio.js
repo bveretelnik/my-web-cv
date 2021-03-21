@@ -65,10 +65,7 @@ function Portfolio() {
                   color="primary"
                   href="https://github.com/bveretelnik/react-slack-clone"
                 >
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                  Live Preview on GitHub
                 </Button>
               </CardActions>
             </Card>
@@ -100,10 +97,7 @@ function Portfolio() {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                  Live Preview on GitHub
                 </Button>
               </CardActions>
             </Card>
@@ -135,10 +129,7 @@ function Portfolio() {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                  Live Preview on GitHub
                 </Button>
               </CardActions>
             </Card>
@@ -170,10 +161,7 @@ function Portfolio() {
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
-                  Share
-                </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                  Live Preview on GitHub
                 </Button>
               </CardActions>
             </Card>
