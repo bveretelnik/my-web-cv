@@ -55,7 +55,7 @@ function Portfolio() {
                     component="p"
                   >
                     Full-stack chat application from front to back with React,
-                    Redux, Firebase 5, and Semantic UI React
+                    Redux, Firebase, and Semantic UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -63,9 +63,20 @@ function Portfolio() {
                 <Button
                   size="small"
                   color="primary"
+                  target="_blank"
+                  rel="noreferrer"
                   href="https://github.com/bveretelnik/react-slack-clone"
                 >
                   Live Preview on GitHub
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://react-slack-clone-527e8.firebaseapp.com/"
+                >
+                  Live Preview
                 </Button>
               </CardActions>
             </Card>
@@ -82,21 +93,35 @@ function Portfolio() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    Todo List React
+                    Cloud Drive React
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Full-stack chat application from front to back with React,
-                    Redux, Firebase 5, and Semantic UI React
+                    Application from front with React, Redux, Firebase, CSS
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/bveretelnik/Cloud-Drive_React"
+                >
                   Live Preview on GitHub
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://react-cloud-drive-442db.firebaseapp.com/"
+                >
+                  Live Preview
                 </Button>
               </CardActions>
             </Card>
@@ -113,21 +138,35 @@ function Portfolio() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    Income Tracker React
+                    Expense Tracker App
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    Full-stack chat application from front to back with React,
-                    Redux, Firebase 5, and Semantic UI React
+                    Complex Expense Budget Tracker. React, JS, Material UI React
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/bveretelnik/speechly_expense_tracker/"
+                >
                   Live Preview on GitHub
+                </Button>
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://speechly-transatcions-app.firebaseapp.com/"
+                >
+                  Live Preview
                 </Button>
               </CardActions>
             </Card>
@@ -151,14 +190,16 @@ function Portfolio() {
                     color="textSecondary"
                     component="p"
                   >
-                    Full-stack chat application from front to back with React,
-                    Redux, Firebase 5, and Semantic UI React
+                    ..................................
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
                 <Button size="small" color="primary">
                   Live Preview on GitHub
+                </Button>
+                <Button size="small" color="primary">
+                  Live Preview
                 </Button>
               </CardActions>
             </Card>

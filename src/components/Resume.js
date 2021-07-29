@@ -116,7 +116,7 @@ function Resume() {
             variant="h2"
             className={`${classes.timeLineYear} ${classes.timeLineItem}`}
           >
-            2017-2020
+            2016-2021
           </Typography>
           <Box component="div" className={classes.timeLineItem}>
             <Typography
@@ -124,14 +124,14 @@ function Resume() {
               aligh="center"
               className={classes.subHeading}
             >
-              Accountant 📜
+              Senior Accountant 📜
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: "tomato" }}
             >
-              IT Rex Group 🦖
+              BPO Company 🦖
             </Typography>
             <Typography
               variant="sumtitle1"
@@ -139,7 +139,8 @@ function Resume() {
               style={{ color: "tan" }}
             >
               Ведення фопів на спрощеній системі оподаткування, здача звітів,
-              оплата податків, підготовка первинної документації.
+              оплата податків, підготовка первинної документації. Консультування
+              з питань оподаткування.
             </Typography>
           </Box>
           <Typography
@@ -154,23 +155,24 @@ function Resume() {
               aligh="center"
               className={classes.subHeading}
             >
-              Learn HTML & CSS 🔨
+              HTML & CSS 🔨
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: "tomato" }}
             >
-              Home LLD 🏘
+              Home 🏘
             </Typography>
             <Typography
               variant="sumtitle1"
               aligh="center"
               style={{ color: "tan" }}
             >
-              Ознайомлення та вивчення бази HTML та CSS, також вивчас Bottstrap,
-              препроцесори SASS LESS. Застосовував отриманні знання на розробці
-              простих Web aplication.
+              Ознайомлення та вивчення бази HTML та CSS, також вивчав Bottstrap,
+              препроцесор SASS. Застосовував отриманні знання на розробці
+              простих Web додатків. Знаю як працюють Grid, Flex. Розуміюся на
+              побудові простих анімацій.
             </Typography>
           </Box>
           <Typography
@@ -185,14 +187,14 @@ function Resume() {
               aligh="center"
               className={classes.subHeading}
             >
-              Learn JS & React JS 💻
+              JavaScript & React JS 💻
             </Typography>
             <Typography
               variant="body1"
               aligh="center"
               style={{ color: "tomato" }}
             >
-              Home LLD 🏘
+              Home 🏘
             </Typography>
             <Typography
               variant="sumtitle1"
@@ -200,7 +202,10 @@ function Resume() {
               style={{ color: "tan" }}
             >
               Вивчення JavaScrip: змінні, функції, типи данних, масиви, обєкти,
-              обіцянки і тд... Обраний фреймворк - React JS.
+              обіцянки, області бачення, замикання і тд. Вмію працювати з новим
+              стандартом ES6. Обраний фреймворк - React JS. У своїх проектах
+              використовую Axios, Redux, Firebase, Router Cтилізую за домопогою
+              Material UI та Semantic UI
             </Typography>
           </Box>
         </Box>
