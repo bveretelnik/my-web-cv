@@ -15,7 +15,7 @@ import NavBar from "./NavBar";
 import project1 from "../images/img/slack-clone.png";
 import project2 from "../images/img/todo-list.png";
 import project3 from "../images/img/income-react.png";
-import project4 from "../images/img/react-redux.jpg";
+import project4 from "../images/img/accounting.jpg";
 
 const useStyle = makeStyles({
   mainContainer: {
@@ -183,22 +183,34 @@ function Portfolio() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5">
-                    React & Redux Project
+                    Accounting web app
                   </Typography>
                   <Typography
                     variant="body2"
                     color="textSecondary"
                     component="p"
                   >
-                    ..................................
+                    Web app with React js, Next js and styled-component
                   </Typography>
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://github.com/bveretelnik/Account-portfolio/"
+                >
                   Live Preview on GitHub
                 </Button>
-                <Button size="small" color="primary">
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  rel="noreferrer"
+                  href="https://account-portfolio.web.app/"
+                >
                   Live Preview
                 </Button>
               </CardActions>
